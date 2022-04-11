@@ -18,7 +18,7 @@ def main():
     rospy.loginfo(CAMERA_NAME[1:]+'_magia_comienza')
     
     rospy.Subscriber(CAMERA_NAME,Image,findAruco)
-    pub = rospy.Publisher(CAMERA_NAME+'_aruco_img',Image,queue_size=2)
+    #pub = rospy.Publisher(CAMERA_NAME+'_aruco_img',Image,queue_size=2)
     
     #pub.publish(send_image)
     rospy.spin()
