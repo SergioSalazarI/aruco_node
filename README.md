@@ -1,1 +1,1 @@
-# NodoAruco
+# aruco_node
